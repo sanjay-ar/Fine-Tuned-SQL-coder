@@ -6,7 +6,7 @@ SQLCoder is a specialized language model for SQL code generation, created by fin
 
 
 <div align="center">
-  <img alt="Demo" src="./Assets/venues.gif" />
+  <img alt="Demo" src="./22-ezgif.com-video-to-gif-converter.gif" />
 </div>
 
 ## Project Overview
