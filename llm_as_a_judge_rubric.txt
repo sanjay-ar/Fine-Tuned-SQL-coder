@@ -1,0 +1,39 @@
+##### SQL quality rubric
+Criterion A: Adherence to INSTRUCTIONS and CONTEXT
+* Score = 4 Perfectly meets all specified requirements.
+* Score = 3 Meets most requirements with minor deviations.
+* Score = 2 Moderate deviation from the instructions.
+* Score = 1 Significant deviations from the instructions.
+* Score = 0 Does not adhere to the instructions.
+
+
+Criterion B: SQL Correctness (Does the SQL query provide the correct result?)
+* Score = 4 The query executes flawlessly, returning accurate and complete results as per the requirement; logic perfectly aligns with intended operations.
+* Score = 3 The query returns correct results with negligible issues not affecting the main output; logic aligns well with intended outcomes.
+* Score = 2 The query returns mostly correct results but with minor inaccuracies or omissions; logic generally reflects intended operations.
+* Score = 1 The query executes but returns partially correct results, significant errors present; some logical discrepancies present.
+* Score = 0 The query does not execute or returns incorrect results; logic does not align with intended operations.
+
+
+Criterion C: Readability and Maintainability (Is the SQL code easy to understand and maintain?)
+* Score = 4 The code is excellently formatted and thoroughly commented, uses meaningful aliases/variable names, ensuring high readability and ease of maintenance; organizes complex queries well.
+* Score = 3 The code is well-formatted and commented, making it relatively easy to understand and maintain; uses aliases and names with some organization of complex queries.
+* Score = 2 The code is somewhat readable with basic formatting and some comments, but improvements are needed; needs better use of aliases/names and organization.
+* Score = 1 The code has minimal formatting and few comments, making it hard to understand; lacks meaningful names and organization.
+* Score = 0 The code is unreadable, with no attempt at formatting or commenting.
+
+
+Criterion D: Scalability (Does the solution scale well with larger datasets or more complex queries?)
+* Score = 4 The solution is highly scalable, effortlessly handling large datasets and complex queries without performance degradation; avoids inefficient patterns like Cartesian joins.
+* Score = 3 The solution scales well, maintaining performance with increased data volumes and complexity; minor areas for optimization.
+* Score = 2 The solution is moderately scalable, handling larger datasets with some performance issues; misses some opportunities for using scalability practices.
+* Score = 1 The solution shows poor scalability, with notable performance degradation under increased load; lacks effective scalability techniques.
+* Score = 0 The solution does not scale; overlooks fundamental scalability practices, resulting in significant issues.
+
+
+Criterion E: Compliance with Standards (Does the SQL query follow SQL standards and best practices?)
+* Score = 4 The query strictly adheres to SQL standards and best practices, showcasing exemplary coding standards.
+* Score = 3 The query closely follows SQL standards and adheres to many best practices.
+* Score = 2 The query generally follows SQL standards but has room for better alignment with best practices.
+* Score = 1 The query loosely follows SQL standards, with several deviations from best practices.
+* Score = 0 The query does not follow SQL standards or best practices, using deprecated or non-standard syntax.
