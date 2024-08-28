@@ -4,6 +4,11 @@
 
 SQLCoder is a specialized language model for SQL code generation, created by fine-tuning the LLaMA model. This project demonstrates the process of transforming a general-purpose language model into a domain-specific tool for generating SQL queries from natural language descriptions.
 
+
+<div align="center">
+  <img alt="Demo" src="./Assets/venues.gif" />
+</div>
+
 ## Project Overview
 
 - **Base Model**: LLaMA
